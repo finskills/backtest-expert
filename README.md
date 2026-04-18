@@ -21,7 +21,7 @@
 ## Install
 
 ```bash
-npx skills add https://github.com/your-org/finskills-skills --skill backtest-expert
+npx skills add https://github.com/finskills/backtest-expert --skill backtest-expert
 ```
 
 ## Quick Start
@@ -61,7 +61,7 @@ Claude: [Fetches 5Y daily AAPL + SPY history, generates signals, computes full s
 
 ## Requirements
 
-- **Finskills API Key** ([register here](https://finskills.net)): [Register at finskills.net](https://finskills.net) (free tier available) — **Pro plan required** for historical price data
+- **Finskills API Key**: [Register at finskills.net](https://finskills.net) (free tier available) — **Pro plan required** for historical price data
 - Free plan is used for Fama-French factor data
 - **Claude** with skill support
 

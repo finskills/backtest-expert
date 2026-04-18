@@ -1,3 +1,16 @@
+---
+name: Backtest Expert
+version: 1.0.0
+description: "Design, execute, and evaluate quantitative trading strategies using historical price data and Fama-French factor attribution via the Finskills API."
+author: finskills
+homepage: https://github.com/finskills/backtest-expert
+credentials:
+  - name: FINSKILLS_API_KEY
+    description: "Finskills API key — register for free at https://finskills.net (Pro plan for historical OHLCV data; free for Fama-French factor data)"
+    required: true
+    link: https://finskills.net
+---
+
 # Backtest Expert
 
 Design, execute, and evaluate quantitative trading strategies using historical
@@ -9,7 +22,7 @@ factor attribution, and walk-forward validation.
 
 ## Setup
 
-**API Key required** — Pro plan for `/v1/stocks/history`; Free plan for Fama-French data.  
+**API Key required** — [Register at https://finskills.net](https://finskills.net) to get your free key.  
 Header: `X-API-Key: <your_api_key>`
 > **Get your API key**: Register at **https://finskills.net** — free tier available, Pro plan unlocks real-time quotes, history, and financials.
 
