@@ -1,14 +1,15 @@
 ---
 name: Backtest Expert
-version: 1.0.1
+version: 1.0.2
 description: "Design, execute, and evaluate quantitative trading strategies using historical price data and Fama-French factor attribution via the Finskills API."
 author: finskills
-homepage: https://github.com/finskills/backtest-expert
-credentials:
-  - name: FINSKILLS_API_KEY
-    description: "Finskills API key — register for free at https://finskills.net (Pro plan for historical OHLCV data; free for Fama-French factor data)"
-    required: true
-    link: https://finskills.net
+metadata:
+  openclaw:
+    requires:
+      env:
+        - FINSKILLS_API_KEY
+    primaryEnv: FINSKILLS_API_KEY
+  homepage: https://github.com/finskills/backtest-expert
 ---
 
 # Backtest Expert
