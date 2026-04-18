@@ -1,6 +1,6 @@
 ---
 name: Backtest Expert
-version: 1.0.0
+version: 1.0.1
 description: "Design, execute, and evaluate quantitative trading strategies using historical price data and Fama-French factor attribution via the Finskills API."
 author: finskills
 homepage: https://github.com/finskills/backtest-expert
