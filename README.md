@@ -61,7 +61,7 @@ Claude: [Fetches 5Y daily AAPL + SPY history, generates signals, computes full s
 
 ## Requirements
 
-- **Finskills API Key**: [Get one](https://finskills.net/register) — **Pro plan required** for historical price data
+- **Finskills API Key** ([register here](https://finskills.net)): [Register at finskills.net](https://finskills.net) (free tier available) — **Pro plan required** for historical price data
 - Free plan is used for Fama-French factor data
 - **Claude** with skill support
 

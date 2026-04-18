@@ -10,7 +10,8 @@ factor attribution, and walk-forward validation.
 ## Setup
 
 **API Key required** — Pro plan for `/v1/stocks/history`; Free plan for Fama-French data.  
-Header: `X-API-Key: <key>`
+Header: `X-API-Key: <your_api_key>`
+> **Get your API key**: Register at **https://finskills.net** — free tier available, Pro plan unlocks real-time quotes, history, and financials.
 
 ---
 
